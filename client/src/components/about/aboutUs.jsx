@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import Title from '../ui/title';
 
 export default function AboutPage() {
   return (
