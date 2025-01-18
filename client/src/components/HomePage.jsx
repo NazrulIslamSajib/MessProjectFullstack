@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div className=' max-w-[700px]'>
-          <div className='bg-black border-l-purple-600 border-4 max-w-[500px]'>
+          <div className='bg-black border-4 max-w-[500px]'>
             <h1 className=' text-white font-bold text-2xl'>Welcome to 
            <span className='text-4xl text-amber-400'> Mess Management Web Application</span></h1>
           </div>
