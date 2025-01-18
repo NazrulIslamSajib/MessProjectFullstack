@@ -7,7 +7,10 @@ import Profile from "../components/Profile";
 import Error from "../components/Error"; 
 import Logout from "../components/Logout";
 import HomePage from "../components/HomePage";
+import AboutPage from '../components/about/aboutUs';
+import OurDetailsPage from '../components/ourDetails/ourDetails';
 import Header from '../layout/Header';
+
 const Index = () => (
   <BrowserRouter> 
     <Header/>
@@ -17,6 +20,8 @@ const Index = () => (
       <Route path="/Login" element={<Login />} />
       <Route path="/Register" element={<Register />} />
       <Route path="/Profile" element={<Profile />} /> 
+      <Route path='/about' element={<AboutPage />} />
+      <Route path='/ourdetails/:name' element={<OurDetailsPage />} />
       <Route path="/Logout" element={<Logout/>} />
       <Route path="*" element={<Error />} />
     </Routes>
