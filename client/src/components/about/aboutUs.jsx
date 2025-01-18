@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <section className='container mx-auto py-4 h-[82vh]'>
     
-      <div className='grid grid-cols-5 gap-2 max-w-[1300px]'>
+      <div className='grid grid-cols-2 lg:grid-cols-5 gap-2 max-w-[1300px]'>
 
 
       <div className='w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
