@@ -13,7 +13,7 @@ export default function OurDetailsPage() {
     {
       id: 'sajib',
       name: 'Nazrul Islam Sajib',
-      email: 'Sajib@gmail.com',
+      email: 'sajeebnazrul@gmail.com',
       mobile: '01790253897',
     },
     
